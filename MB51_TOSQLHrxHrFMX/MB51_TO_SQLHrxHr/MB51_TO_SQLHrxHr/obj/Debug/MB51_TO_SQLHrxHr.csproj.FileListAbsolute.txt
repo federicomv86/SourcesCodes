@@ -1,0 +1,61 @@
+C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe.config
+C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.pdb
+C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\CL_proc.dll
+C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\rscp4n.dll
+C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\SAP_Functions.dll
+C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csprojResolveAssemblyReference.cache
+C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.exe
+C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.pdb
+C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\sapnco.dll
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csproj.CoreCompileInputs.cache
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.exe
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.pdb
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe.config
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.pdb
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\CL_proc.dll
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\rscp4n.dll
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\sapnco.dll
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\sapnco_utils.dll
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\SAP_Functions.dll
+C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csproj.CopyComplete
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe.config
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.pdb
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\CL_proc.dll
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\rscp4n.dll
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\sapnco.dll
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\sapnco_utils.dll
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\SAP_Functions.dll
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csproj.CoreCompileInputs.cache
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csproj.CopyComplete
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.exe
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.pdb
+C:\Users\guapa\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csprojAssemblyReference.cache
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe.config
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.pdb
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\CL_proc.dll
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\rscp4n.dll
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\sapnco.dll
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\sapnco_utils.dll
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\SAP_Functions.dll
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csprojAssemblyReference.cache
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csproj.CoreCompileInputs.cache
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csproj.CopyComplete
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.exe
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.pdb
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csproj.CoreCompileInputs.cache
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.exe
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.pdb
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe.config
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.pdb
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\CL_proc.dll
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\rscp4n.dll
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\sapnco.dll
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\sapnco_utils.dll
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\SAP_Functions.dll
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csproj.CopyComplete
+C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\obj\Debug\MB51_TO_SQLHrxHr.csproj.AssemblyReference.cache

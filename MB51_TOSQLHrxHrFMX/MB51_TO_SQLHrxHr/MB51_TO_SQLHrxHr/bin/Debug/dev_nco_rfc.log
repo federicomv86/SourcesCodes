@@ -1,0 +1,2297 @@
+
+**** Log file opened by process 38532 at 2017-12-04 14:28:00 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:28:00.623 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination PRD -- no destination configuration registered
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+
+**** Log file opened by process 18532 at 2017-12-04 14:30:00 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:30:00.586 [Thread 8]
+Attempt no. 1 to load configuration failed:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified. (c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe.Config line 10) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified.
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters.loadConfiguration()
+>> Error entry 2017-12-04 14:30:00.629 [Thread 8]
+Attempt no. 1 to load configuration failed:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified. (c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe.Config line 10) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified.
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters.loadConfiguration()
+>> Error entry 2017-12-04 14:30:00.632 [Thread 8]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination PRD -- no destination configuration registered
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+
+**** Log file opened by process 38348 at 2017-12-04 14:31:27 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:31:27.141 [Thread 9]
+Attempt no. 1 to load configuration failed:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified. (c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe.Config line 10) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified.
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters.loadConfiguration()
+>> Error entry 2017-12-04 14:31:27.171 [Thread 9]
+Attempt no. 1 to load configuration failed:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified. (c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe.Config line 10) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified.
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters.loadConfiguration()
+>> Error entry 2017-12-04 14:31:27.174 [Thread 9]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination PRD -- no destination configuration registered
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+
+**** Log file opened by process 39432 at 2017-12-04 14:32:09 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:32:09.984 [Thread 9]
+Attempt no. 1 to load configuration failed:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified. (c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe.Config line 10) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified.
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters.loadConfiguration()
+>> Error entry 2017-12-04 14:32:10.011 [Thread 9]
+Attempt no. 1 to load configuration failed:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified. (c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe.Config line 10) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified.
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters.loadConfiguration()
+>> Error entry 2017-12-04 14:32:10.015 [Thread 9]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination PRD -- no destination configuration registered
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+
+**** Log file opened by process 39600 at 2017-12-04 14:33:31 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:33:31.218 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "01:33 p.m." into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 32304 at 2017-12-04 14:34:16 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:34:16.530 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "01:34 p.m." into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 39516 at 2017-12-04 14:39:03 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:39:03.343 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert TimeSpan into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: System.TimeSpan cannot be converted into DATE
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertObject(Object value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+
+**** Log file opened by process 39888 at 2017-12-04 14:39:14 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:39:14.122 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert TimeSpan into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: System.TimeSpan cannot be converted into DATE
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertObject(Object value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+
+**** Log file opened by process 37844 at 2017-12-04 14:40:21 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:40:21.156 [Thread 10]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 33064 at 2017-12-04 14:41:53 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:41:53.703 [Thread 10]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 39608 at 2017-12-04 14:43:55 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:43:55.494 [Thread 10]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 31348 at 2017-12-04 14:44:33 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:44:33.124 [Thread 9]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 8576 at 2017-12-04 14:47:45 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:47:45.484 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "3:47:4" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 16300 at 2017-12-04 14:50:13 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:50:13.965 [Thread 10]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 33400 at 2017-12-04 14:55:05 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:55:05.782 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "050000" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 39172 at 2017-12-04 14:55:57 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:55:57.157 [Thread 8]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 39756 at 2017-12-04 14:59:29 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 14:59:29.106 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "14:59:29" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 39836 at 2017-12-04 15:11:20 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:11:20.750 [Thread 10]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 35044 at 2017-12-04 15:28:43 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:28:43.714 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD HIGH of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert TimeSpan into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: System.TimeSpan cannot be converted into DATE
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertObject(Object value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+
+**** Log file opened by process 40748 at 2017-12-04 15:29:15 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:29:15.335 [Thread 10]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 38724 at 2017-12-04 15:34:46 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:34:46.345 [Thread 9]
+Failure to create pool for destination QAS (ORIGINAL) [USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-04 15:34:46.359 [Thread 9]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-12-04 15:34:46.363 [Thread 9]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+
+**** Log file opened by process 17856 at 2017-12-04 15:35:23 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:35:23.979 [Thread 8]
+Failure to create pool for destination QAS (ORIGINAL) [USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-04 15:35:23.996 [Thread 8]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-12-04 15:35:23.999 [Thread 8]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+
+**** Log file opened by process 40860 at 2017-12-04 15:35:35 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:35:35.466 [Thread 10]
+Failure to create pool for destination QAS (ORIGINAL) [USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-04 15:35:35.481 [Thread 10]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-12-04 15:35:35.484 [Thread 10]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+>> Error entry 2017-12-04 15:35:35.724 [Thread 10]
+Failure to create pool for destination QAS (ORIGINAL) [USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-04 15:35:35.740 [Thread 10]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-12-04 15:35:35.750 [Thread 10]
+SAP.Middleware.Connector.RfcLogonException: The initial password has expired (request a new one) ---> SAP.Middleware.Connector.RfcAbapMessageException: The initial password has expired (request a new one)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+
+**** Log file opened by process 40356 at 2017-12-04 15:36:23 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:36:23.482 [Thread 7]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 35060 at 2017-12-04 15:39:21 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:39:21.871 [Thread 10]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 39424 at 2017-12-04 15:40:26 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:40:26.091 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "05:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 39252 at 2017-12-04 15:40:39 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:40:39.560 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "05:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 34124 at 2017-12-04 15:40:55 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:40:55.527 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "05:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 40112 at 2017-12-04 15:44:15 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:44:15.043 [Thread 9]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 39260 at 2017-12-04 15:54:44 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:54:44.201 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "02:14:18" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 40656 at 2017-12-04 15:55:52 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 15:55:52.234 [Thread 8]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 39644 at 2017-12-04 16:03:38 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 16:03:38.589 [Thread 10]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 18640 at 2017-12-04 16:05:36 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 16:05:36.175 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "021418" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 40484 at 2017-12-04 16:06:53 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 16:06:53.521 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "021418" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 16264 at 2017-12-04 16:09:00 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 16:09:00.728 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "021418" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 40868 at 2017-12-04 16:19:11 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 16:19:11.475 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert Int32 into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: int cannot be converted into DATE
+   at SAP.Middleware.Connector.RfcScalarMetadata.ConvertInt(Int32 value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Int32 value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Int32 value)
+
+**** Log file opened by process 38076 at 2017-12-04 16:21:27 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 16:21:27.286 [Thread 9]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 40896 at 2017-12-04 16:22:42 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-04 16:22:42.008 [Thread 9]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Invalid value in SIGN field of value table for IN itab operator. operator.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 28660 at 2017-12-05 07:49:00 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 07:49:00.635 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "00:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 44592 at 2017-12-05 07:53:08 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 07:53:08.307 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "00:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 41908 at 2017-12-05 07:53:30 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 07:53:30.622 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "00:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 41084 at 2017-12-05 07:55:05 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: c:\users\fmarin\documents\visual studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 07:55:05.075 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "00:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 40500 at 2017-12-05 07:58:34 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 07:58:34.975 [Thread 8]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "00:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 43112 at 2017-12-05 07:59:42 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 07:59:42.382 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "00:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 40248 at 2017-12-05 08:00:40 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:00:40.883 [Thread 8]
+Attempt no. 1 to load configuration failed:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified. (C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe.Config line 10) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified.
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters.loadConfiguration()
+>> Error entry 2017-12-05 08:00:40.927 [Thread 8]
+Attempt no. 1 to load configuration failed:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified. (C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe.Config line 10) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified.
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at System.Configuration.ConfigurationSectionCollection.get_Item(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters.loadConfiguration()
+>> Error entry 2017-12-05 08:00:40.931 [Thread 8]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination QAS -- no destination configuration registered
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+
+**** Log file opened by process 44796 at 2017-12-05 08:00:49 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:00:49.428 [Thread 10]
+Attempt no. 1 to load configuration failed:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified. (C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe.Config line 10) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified.
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters.loadConfiguration()
+>> Error entry 2017-12-05 08:00:49.456 [Thread 10]
+Attempt no. 1 to load configuration failed:
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for SAP.Middleware.Connector/ClientSettings/DestinationConfiguration: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified. (C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe.Config line 10) ---> System.IO.FileNotFoundException: Could not load file or assembly 'sapnco' or one of its dependencies. The system cannot find the file specified.
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.MgmtConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.ConfigurationSectionCollection.Get(String name)
+   at SAP.Middleware.Connector.RfcConfigParameters.loadConfiguration()
+>> Error entry 2017-12-05 08:00:49.459 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidStateException: Cannot get destination QAS -- no destination configuration registered
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+
+**** Log file opened by process 34188 at 2017-12-05 08:01:10 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:01:10.929 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "06:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 34152 at 2017-12-05 08:01:53 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:01:53.101 [Thread 10]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapException: NOTHING_FOUND
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 38288 at 2017-12-05 08:03:15 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:03:15.053 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "06:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 43040 at 2017-12-05 08:05:33 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:05:33.676 [Thread 9]
+Failure to create pool for destination DEV (ORIGINAL) [USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.99.32.235 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=DEV]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host ESTLPTSIS04 with Unicode
+ERROR       partner '10.99.32.235:3300' not reached
+TIME        Tue Dec 05 08:05:33 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 10.99.32.235:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-05 08:05:33.690 [Thread 9]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.99.32.235 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=DEV]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host ESTLPTSIS04 with Unicode
+ERROR       partner '10.99.32.235:3300' not reached
+TIME        Tue Dec 05 08:05:33 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 10.99.32.235:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-12-05 08:05:33.693 [Thread 9]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host ESTLPTSIS04 with Unicode
+ERROR       partner '10.99.32.235:3300' not reached
+TIME        Tue Dec 05 08:05:33 2017
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 10.99.32.235:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+
+**** Log file opened by process 38236 at 2017-12-05 08:06:14 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:06:14.802 [Thread 8]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "06:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 39944 at 2017-12-05 08:07:24 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:07:24.798 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "01/01/1900 06:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 39132 at 2017-12-05 08:08:17 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:08:17.929 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "060000" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 43916 at 2017-12-05 08:09:58 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:09:58.004 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD LOW of TABLE ZTTMM_BUDAT [STRUCTURE ZSMM_BUDAT] (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert "00:00:00" into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+
+**** Log file opened by process 40032 at 2017-12-05 08:34:00 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-05 08:34:00.650 [Thread 10]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapException: NO_MOV_TYPE
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 51504 at 2017-12-07 10:58:01 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-07 10:58:01.688 [Thread 8]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapException: NOTHING_FOUND
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 59640 at 2017-12-07 10:59:27 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.116, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-07 10:59:27.541 [Thread 10]
+[USER=EMM_RP_USER PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD]
+SAP.Middleware.Connector.RfcAbapException: NOTHING_FOUND
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 47176 at 2018-03-01 16:57:25 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.vshost.exe
+Working directory: C:\Users\fmarin\Documents\Visual Studio 2013\Projects\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 8x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS04, IP address: 172.19.218.210, IP_v6 address: 
+
+Default trace level: None
+
+>> Info entry 2018-03-01 16:57:25.359 [Thread 9]
+Invalid LZ-compressed data block received, ignored.
+**** Trace file opened at 2018-10-04 11:59:03 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.6.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system:  Professional 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 200
+Hostname: MROCHA, IP address: 10.32.163.103, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-10-04 11:59:03.407
+Failure to create pool for destination QAS [USER=FMARIN PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS PCS=1]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   en SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   en SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   en SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   en SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   en SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   en SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-10-04 11:59:03.410
+USER=FMARIN PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS PCS=1
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   en SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   en SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   en SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   en SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   en SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   en SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   en SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   en SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   en SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2018-10-04 11:59:12.989
+Failure to create pool for destination QAS [USER=FMARIN PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS PCS=1]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   en SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   en SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   en SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   en SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   en SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   en SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-10-04 11:59:12.990
+USER=FMARIN PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS PCS=1
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   en SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   en SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   en SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   en SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   en SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   en SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   en SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   en SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   en SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Trace file opened at 2018-10-04 12:00:16 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.6.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system:  Professional 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 200
+Hostname: MROCHA, IP address: 10.32.163.103, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-10-04 12:00:16.985
+Failure to create pool for destination QAS [USER=FMARIN PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS PCS=1]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   en SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   en SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   en SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   en SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   en SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   en SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-10-04 12:00:16.989
+USER=FMARIN PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS PCS=1
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   en SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   en SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   en SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   en SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   en SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   en SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   en SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   en SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   en SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Trace file opened at 2018-10-04 12:02:03 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.6.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\mrocha\Documents\PROYECTOS\EMM\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system:  Professional 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 200
+Hostname: MROCHA, IP address: 10.32.163.103, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-10-04 12:02:03.907
+Failure to create pool for destination QAS [USER=FMARIN PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS PCS=1]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   en SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   en SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   en SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   en SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   en SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   en SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-10-04 12:02:03.912
+USER=FMARIN PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS PCS=1
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   en SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   en SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   en SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   en SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   en SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   en SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   en SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   en SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   en SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+
+**** Log file opened by process 25892 at 2020-05-21 16:40:43 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.105, IP_v6 address: 
+
+Default trace level: None
+
+>> Info entry 2020-05-21 16:40:43.286 [Thread 1]
+Invalid LZ-compressed data block received, ignored.
+
+**** Log file opened by process 31688 at 2020-10-13 15:22:52 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.81, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-10-13 15:22:52.283 [Thread 1]
+Failure to create pool for destination QAS (ORIGINAL) [USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2020-10-13 15:22:52.287 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2020-10-13 15:22:52.287 [Thread 1]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+
+**** Log file opened by process 32120 at 2020-10-13 16:51:50 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.81, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-10-13 16:51:50.380 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Field symbol has not been assigned yet.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2020-10-13 16:53:34.100 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Field symbol has not been assigned yet.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 27296 at 2020-10-13 16:56:59 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.81, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-10-13 16:56:59.167 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Field symbol has not been assigned yet.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 33212 at 2020-10-13 16:59:32 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.81, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-10-13 16:59:32.321 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Field symbol has not been assigned yet.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 31624 at 2020-10-13 17:03:13 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.81, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-10-13 17:03:13.026 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Field symbol has not been assigned yet.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 12344 at 2020-10-13 17:08:54 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.81, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-10-13 17:08:54.651 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Field symbol has not been assigned yet.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 30392 at 2020-10-13 17:11:40 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.81, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-10-13 17:11:40.233 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Field symbol has not been assigned yet.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 25904 at 2020-10-14 08:34:43 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.81, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-10-14 08:34:43.511 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Field symbol has not been assigned yet.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 35788 at 2020-10-14 10:33:25 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.81, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-10-14 10:33:25.738 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Field symbol has not been assigned yet.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+
+**** Log file opened by process 9704 at 2020-10-16 09:50:27 (UTC-05:00 Central Daylight Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 172.19.218.81, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-10-16 09:50:27.469 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcAbapException: NOTHING_FOUND
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Info entry 2020-10-16 09:51:04.840 [Thread 1]
+Invalid LZ-compressed data block received, ignored.
+
+**** Log file opened by process 18064 at 2020-12-27 19:51:03 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 10.32.160.138, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-12-27 19:51:03.038 [Thread 1]
+Failure to create pool for destination QAS (ORIGINAL) [USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2020-12-27 19:51:03.053 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2020-12-27 19:51:03.054 [Thread 1]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+
+**** Log file opened by process 23396 at 2020-12-27 19:51:38 (UTC-06:00 Central Standard Time (Mexico))
+
+SAP .NET Connector 3.0 with file version 3.0.18.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrNuevo\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system: Windows 8 Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 721, Kernel release: 721, Kernel patch level: 713
+Hostname: ESTLPTSIS13, IP address: 10.32.160.138, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2020-12-27 19:51:38.285 [Thread 1]
+Failure to create pool for destination QAS (ORIGINAL) [USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2020-12-27 19:51:38.292 [Thread 1]
+[USER=FMARIN PASSWD=******** CLIENT=100 LANG=EN ASHOST=10.12.0.18 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=QAS]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2020-12-27 19:51:38.293 [Thread 1]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepository.GetRepositoryForDestination(RfcDestination destination)
+**** Trace file opened at 2021-06-04 15:27:07 (UTC-05:00 Hora de verano central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.6.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system:  Enterprise 64-bit 
+Processor: 12x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 200
+Hostname: FMX1LTMTTO028, IP address: 10.99.10.212, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2021-06-04 15:27:07.308
+Failure to create pool for destination PRD [USER=FMX_RP_USER PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD PCS=1]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2021-06-04 15:27:07.313
+USER=FMX_RP_USER PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD PCS=1
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2021-06-04 15:27:07.665
+Failure to create pool for destination PRD [USER=FMX_RP_USER PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD PCS=1]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2021-06-04 15:27:07.666
+USER=FMX_RP_USER PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD PCS=1
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect (repeat logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect (repeat logon)
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Trace file opened at 2023-08-22 15:57:48 (UTC-06:00 Hora estándar central (México))
+
+SAP .NET Connector 3.0 with file version 3.0.6.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug\MB51_TO_SQLHrxHr.exe
+Working directory: C:\Users\fmarin\source\repos\MB51_TOSQLHrxHrFMX\MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr\bin\Debug
+Operating system:  Enterprise 64-bit 
+Processor: 16x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 200
+Hostname: FMX2LTMTTO027, IP address: 10.99.11.73, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2023-08-22 15:57:48.319
+Failure to create pool for destination PRD [USER=FMX_RP_USER PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD PCS=1]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.12.0.83:3300' not reached
+TIME        Tue Aug 22 15:57:48 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.12.0.83:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+   en SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   en SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2023-08-22 15:57:48.321
+USER=FMX_RP_USER PASSWD=*secret* CLIENT=100 LANG=EN ASHOST=10.12.0.83 SYSNR=00 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=PRD PCS=1
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.12.0.83:3300' not reached
+TIME        Tue Aug 22 15:57:48 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.12.0.83:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+   en SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   en SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   en SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   en SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   en SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   en SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB51_TO_SQLHrxHr", "MB51_TO_SQLHrxHr\MB51_TO_SQLHrxHr.csproj", "{79E12931-D9F5-4824-8A28-FE513C9FA041}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MB51HrxHr", "MB51HrxHr\MB51HrxHr.vdproj", "{DC320E2D-0AEA-475C-A086-0736F2A91405}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MMB51toSQLHrxHr", "MMB51toSQLHrxHr\MMB51toSQLHrxHr.vdproj", "{C47B1B07-B39D-4CB7-AF00-E494BE97CA94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79E12931-D9F5-4824-8A28-FE513C9FA041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E12931-D9F5-4824-8A28-FE513C9FA041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E12931-D9F5-4824-8A28-FE513C9FA041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E12931-D9F5-4824-8A28-FE513C9FA041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC320E2D-0AEA-475C-A086-0736F2A91405}.Debug|Any CPU.ActiveCfg = Debug
+		{DC320E2D-0AEA-475C-A086-0736F2A91405}.Release|Any CPU.ActiveCfg = Release
+		{C47B1B07-B39D-4CB7-AF00-E494BE97CA94}.Debug|Any CPU.ActiveCfg = Debug
+		{C47B1B07-B39D-4CB7-AF00-E494BE97CA94}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18314B35-2AAA-4D7D-A16A-B485B67F8AF3}
+	EndGlobalSection
+EndGlobal
